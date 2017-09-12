@@ -1,4 +1,5 @@
 #include "AussiGotchi.h"
+#include <iostream>
 
 void feedAussio(Ausiigochi & aus)
 {

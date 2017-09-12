@@ -15,15 +15,50 @@ void swap(float& a, float &b)
 	b = temp;
 }
 
+struct DumbIntArray
+{
+	int * arr;
+	int size;
+};
 
+int accessDumbArray(DumbIntArray& dum, int idx)
+{
+#ifdef _DEBUG
+	if (idx >= dum.size)
+	{
+		std::cerr << "Accessed invalid index!" << std::endl;
+		abort();
+	}
+#endif // DEBUG
 
+	return dum.arr[idx];
+}
 
+void inc()
+{
+	static int num = 0;
+	num++;
 
-
-
+	std::cout << num << std::endl;
+}
 
 int main()
 {
+	DumbIntArray dumb;
+	dumb.arr = new int[10];
+	dumb.size = 10;
+
+
+
+	delete[] dumb.arr;
+
+	for (int i = 0; i < 5; ++i)
+	{
+		inc();
+	}
+
+	while (true) {}
+
 	/*int num = 0;
 	float dec = 0;
 	bool tf = false;

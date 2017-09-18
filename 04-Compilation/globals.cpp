@@ -1,6 +1,7 @@
 #include "globals.h"
 
 int globalOffensive = 0;
+int counter = 0;
 
 void makeItTwo()
 {
@@ -10,4 +11,14 @@ void makeItTwo()
 void makeItOne()
 {
 	globalOffensive = 1;
+}
+
+void increment()
+{
+	counter++;
+}
+
+void decrement()
+{
+	counter--;
 }

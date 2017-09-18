@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "goingoverref", "goingoverre
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04-Compilation", "04-Compilation\04-Compilation.vcxproj", "{3EB64EA0-50EA-43FD-83A6-251662C94B3B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05-FileIO", "05-FileIO\05-FileIO.vcxproj", "{7252CCD3-0042-42C4-991C-E439DD3E4F93}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{3EB64EA0-50EA-43FD-83A6-251662C94B3B}.Release|x64.Build.0 = Release|x64
 		{3EB64EA0-50EA-43FD-83A6-251662C94B3B}.Release|x86.ActiveCfg = Release|Win32
 		{3EB64EA0-50EA-43FD-83A6-251662C94B3B}.Release|x86.Build.0 = Release|Win32
+		{7252CCD3-0042-42C4-991C-E439DD3E4F93}.Debug|x64.ActiveCfg = Debug|x64
+		{7252CCD3-0042-42C4-991C-E439DD3E4F93}.Debug|x64.Build.0 = Debug|x64
+		{7252CCD3-0042-42C4-991C-E439DD3E4F93}.Debug|x86.ActiveCfg = Debug|Win32
+		{7252CCD3-0042-42C4-991C-E439DD3E4F93}.Debug|x86.Build.0 = Debug|Win32
+		{7252CCD3-0042-42C4-991C-E439DD3E4F93}.Release|x64.ActiveCfg = Release|x64
+		{7252CCD3-0042-42C4-991C-E439DD3E4F93}.Release|x64.Build.0 = Release|x64
+		{7252CCD3-0042-42C4-991C-E439DD3E4F93}.Release|x86.ActiveCfg = Release|Win32
+		{7252CCD3-0042-42C4-991C-E439DD3E4F93}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
